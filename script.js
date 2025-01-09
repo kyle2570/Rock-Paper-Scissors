@@ -1,13 +1,9 @@
-console.log("Test3");
-
-//getComputerChoice();
-//console.log(getHumanChoice());
 
 
 let humanScore = 0 ;
 let computerScore  = 0;
 
-playRound();
+playGame();
 
 function getComputerChoice(){
 
@@ -44,7 +40,6 @@ function getHumanChoice(){
     }
 
     }
-
 
 
 }
@@ -106,3 +101,20 @@ function playRound(){
 
 
 
+
+function playGame(){
+    let numOfRound = 5;
+
+    for (let i = 0;i < numOfRound;i++){
+        playRound();
+    }
+
+    if (humanScore > computerScore){
+        console.log(`Final result: You won! Your score:${humanScore} Computer score:${computerScore} .`);
+
+    } else if (computerScore > humanScore){
+        console.log(`Final result: You lost! Your score:${humanScore} Computer score:${computerScore} .`);
+    }
+
+
+}
