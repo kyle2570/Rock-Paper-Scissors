@@ -1,0 +1,83 @@
+html,body,div {
+
+}
+
+#playerScoreContainer {
+    margin-left:2%;
+    margin-top:2%;
+}
+
+#computerScoreContainer {
+    margin-right:2%;
+    margin-top:2%;
+}
+
+
+
+
+#scoreContainer{
+    display:flex;
+    justify-content:space-between;
+  
+
+
+}
+
+#playroundContainer{
+    display:flex;
+    flex-direction:column;
+    align-self:center;
+
+}
+
+
+#buttonContainer{
+    display:flex;
+    align-self: center;
+    gap:50px;
+
+
+}
+
+
+#container{
+   width:1000px;
+    height:500px;
+
+
+  
+   /* width:500px;
+    height:250px;
+
+*/
+
+    
+    border: 2px solid black;
+    margin-left:50px;
+    margin-top:50px;
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+ 
+
+
+  
+
+
+}
+
+
+
+#rock:hover{
+    background-color: yellow;
+
+}
+
+button{
+    width:100px;
+    height: 50px;
+    
+
+
+}
